@@ -1,4 +1,5 @@
 node_modules
+public/bower
 .DS_Store
 .xml
 .idea
