@@ -1,0 +1,23 @@
+{
+  "name": "smart-app",
+  "description": "smart application",
+  "main": "server.js",
+  "authors": [
+    "surya srinivas"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "smartapp",
+    "smmalapaka",
+    "lmssrinivas"
+  ],
+  "homepage": "https://github.com/smmalapaka/smart-app",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

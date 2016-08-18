@@ -1,0 +1,14 @@
+body {
+  padding-top: 70px;
+  /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */ }
+
+.hero-spacer {
+  margin-top: 50px; }
+
+.hero-feature {
+  margin-bottom: 30px; }
+
+footer {
+  margin: 50px 0; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3NzL2dlbmVyaWMuY3NzIiwic291cmNlcyI6WyJjc3MvZ2VuZXJpYy5zY3NzIl0sInNvdXJjZXNDb250ZW50IjpbIlxuYm9keSB7XG4gIHBhZGRpbmctdG9wOiA3MHB4OyAvKiBSZXF1aXJlZCBwYWRkaW5nIGZvciAubmF2YmFyLWZpeGVkLXRvcC4gUmVtb3ZlIGlmIHVzaW5nIC5uYXZiYXItc3RhdGljLXRvcC4gQ2hhbmdlIGlmIGhlaWdodCBvZiBuYXZpZ2F0aW9uIGNoYW5nZXMuICovXG59XG5cbi5oZXJvLXNwYWNlciB7XG4gIG1hcmdpbi10b3A6IDUwcHg7XG59XG5cbi5oZXJvLWZlYXR1cmUge1xuICBtYXJnaW4tYm90dG9tOiAzMHB4O1xufVxuXG5mb290ZXIge1xuICBtYXJnaW46IDUwcHggMDtcbn0iXSwibWFwcGluZ3MiOiJBQUNBLEFBQUEsSUFBSSxDQUFDO0VBQ0gsV0FBVyxFQUFFLElBQUs7RUFBRSx5SEFBeUgsRUFDOUk7O0FBRUQsQUFBQSxZQUFZLENBQUM7RUFDWCxVQUFVLEVBQUUsSUFBSyxHQUNsQjs7QUFFRCxBQUFBLGFBQWEsQ0FBQztFQUNaLGFBQWEsRUFBRSxJQUFLLEdBQ3JCOztBQUVELEFBQUEsTUFBTSxDQUFDO0VBQ0wsTUFBTSxFQUFFLE1BQU8sR0FDaEIiLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9 */

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="smart-app">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart-App</title>
+    <link rel="stylesheet" href="bower/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="templates/chats/chat.css">
+    <link rel="stylesheet" href="css/movies.css">
+    <!--<link rel="stylesheet" href=".././build/css/chats/chat.css">-->
+
+</head>
+<body ng-controller="BodyCtrl as bodyCtrl">
+
+    <div class="header">
+        <!--Navigation-->
+        <smart-nav></smart-nav>
+    </div>
+
+
+    <div ui-view></div>
+
+    <smart-chat ng-if="bodyCtrl.chatBoxOpend"></smart-chat>
+
+    <div class="chat-position">
+        <span class="glyphicon glyphicon-comment" ng-click="bodyCtrl.openChatBox()"> </span>
+    </div>
+<div class="container"> 
+
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="col-lg-12">
+                <p>Copyright &copy; (2016) surya srinivas </p>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+    <script src="bower/jquery/dist/jquery.min.js"></script>
+    <script src="bower/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower/angular/angular.min.js"></script>
+    <script src="bower/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="templates/generic/SmartNav.component.js"></script>
+    <script src="js/Body/BodyCtrl.js"></script>
+    <script src="templates/chats/Chat.component.js"></script>
+    <script src="templates/movies/MovieController.js"></script>
+
+
+
+</body>
+</html>
